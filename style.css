@@ -1,0 +1,36 @@
+.imperio {
+    background-color: red;
+}
+
+.rebeldes {
+    background-color: blue;
+    color: white;
+}
+
+#darthvader {
+    font-size: 1.5em;
+}
+
+#luke {
+    font-style: italic;
+}
+
+.imperio.soldado,
+.rebeldes.soldado {
+    border: 2px dashed whitesmoke;
+}
+
+.imperio.soldado.espaciado,
+.rebeldes.soldado.espaciado {
+    letter-spacing: 2px;
+}
+
+.imperio.apoyo,
+.rebeldes.apoyo {
+    text-align: center;
+}
+
+.imperio.apoyo.nave,
+.rebeldes.apoyo.nave {
+    text-transform: uppercase;
+}
